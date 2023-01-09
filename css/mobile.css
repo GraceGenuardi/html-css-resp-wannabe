@@ -9,9 +9,14 @@
     .row {
         display: flex;
         flex-direction: column;
+        width: 700px;
+        padding-bottom: 20px;
+        text-align: center;
        
     }
     img {
+        flex-basis: 100%;
+        padding-top: 10px;
         
     }
     h1 {
@@ -34,21 +39,31 @@
     font-size: 0.8rem;   
     }
 
-    .card {
-        
-        
-        
-        
-        
-        
+    .lessons .col {
+        width: 60%;
     }
-
-    .col {
-        
-        
-        
-    }
-
     
+    .steps .col {
+        width: 60%;
+    }
+    
+    .steps .col img {
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+    
+   .why-us {
+    background-color: black;
+    margin: -50px;
+   }
+
+   .why-us .col-left {
+    width: 60%;
+    padding-bottom: 50px;
+}
+
+.why-us .col-right {
+    width: 60%;
+}
     
 	}
