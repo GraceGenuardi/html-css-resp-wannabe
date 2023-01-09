@@ -3,11 +3,13 @@
         width: 450px;
         margin: 0 auto;
         padding: 0 20px;
-       
         
-    
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
        
-        
     }
     img {
         
@@ -35,14 +37,15 @@
     .card {
         
         
-        align-items: center;
+        
         
         
         
     }
 
     .col {
-        display: flex;
+        
+        
         
     }
 
